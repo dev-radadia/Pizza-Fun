@@ -392,7 +392,7 @@ export default class App extends React.Component {
   findMenuItem(e) {
     e.preventDefault()
     const collectData = []
-    allProductsData.map((product) => {
+    allProductsData.forEach((product) => {
       if (product.ItemName.toLowerCase().includes(e.target.value)) {
         collectData.push(product)
         this.setState({ allProducts: [...collectData] })
