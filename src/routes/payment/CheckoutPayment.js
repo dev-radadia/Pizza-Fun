@@ -92,11 +92,11 @@ const CheckoutPayment = ({ totalPayment, taxes }) => {
             </div>
           </section>
           <form onSubmit={handleSubmit} className="credit-card-form">
-            <input onChange={handleValidation} value={formValue.firstname} name="firstname" type="text" placeholder="First name" />
+            <input onChange={handleValidation} value={formValue.firstname} name="firstname" type="text" placeholder="First Name" />
             <span className="login-input-err">{formError.firstname}</span>
-            <input onChange={handleValidation} value={formValue.lastname} name="lastname" placeholder="Last name" />
+            <input onChange={handleValidation} value={formValue.lastname} name="lastname" placeholder="Last Name" />
             <span className="login-input-err">{formError.lastname}</span>
-            <input onChange={handleValidation} value={formValue.cardNumber} name="cardNumber" placeholder="Card number" maxLength="16" />
+            <input onChange={handleValidation} value={formValue.cardNumber} name="cardNumber" placeholder="Card Number" maxLength="16" />
             <span className="login-input-err">{formError.cardNumber}</span>
             <section className="cvv-exp">
               <section className="cvv-input">

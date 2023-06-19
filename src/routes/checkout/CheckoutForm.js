@@ -59,7 +59,7 @@ const CheckoutForm = ({ toggleDelivery, delivery, togglePromocode, promoCode, to
           className="fullname-input-cpage pop-font"
           type="text"
           value={formValue.fullname}
-          placeholder="Full name"
+          placeholder="Full Name"
           onChange={handleValidation}
         />
         <span className="fullname-error-cpage">{formError.fullname}</span>
@@ -67,7 +67,7 @@ const CheckoutForm = ({ toggleDelivery, delivery, togglePromocode, promoCode, to
           name="phone"
           className="fullname-input-cpage pop-font"
           type="text"
-          placeholder="Mobile number"
+          placeholder="Mobile Number"
           onChange={handleValidation}
           value={formValue.phone}
         />

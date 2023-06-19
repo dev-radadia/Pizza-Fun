@@ -37,7 +37,7 @@ const Newsletter = () => {
         transition={{ duration: 2 }}
       >
         <label htmlFor="email-input">
-          Subscribe to our newsletter to recieve updates about menu and enjoy
+          Subscribe to our newsletter to receive updates about menu and enjoy
           awesome gifts!
         </label>
       </motion.div>

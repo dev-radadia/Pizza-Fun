@@ -45,7 +45,7 @@ const Contact = () => {
       <main className="contact" >
         <section>
           {submit && Object.keys(formError).length === 0 ?
-            <p className="contact-success">We have recieved your message and we will get back to you shortly! 🍕</p> :
+            <p className="contact-success">We have received your message and we will get back to you shortly! 🍕</p> :
             <form onSubmit={handleSubmit} className="flex-container flex-column">
               <div className="webflow-style-input">
                 <input
